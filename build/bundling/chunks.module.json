@@ -1,0 +1,81 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.43.0",
+  "hash": "58246682d07b9c72a6a0",
+  "publicPath": "/static/",
+  "outputPath": "/Users/hiromi/example-frontity-wordpress/build/static",
+  "assetsByChunkName": {
+    "frontity-example": "frontity-example.module.js",
+    "list": "list.module.js"
+  },
+  "assets": [
+    {
+      "name": "frontity-example.module.js",
+      "size": 5080830,
+      "chunks": [
+        "frontity-example"
+      ],
+      "chunkNames": [
+        "frontity-example"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "list.module.js",
+      "size": 47765,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "frontity-example": {
+      "chunks": [
+        "frontity-example"
+      ],
+      "assets": [
+        "frontity-example.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "frontity-example": {
+      "chunks": [
+        "frontity-example"
+      ],
+      "assets": [
+        "frontity-example.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": []
+}
